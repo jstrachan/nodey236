@@ -5,6 +5,5 @@ pipelineConfig:
       - pipeline: release
         name: helm-release
         step: 
-          name: helm-release
-          image: gcr.io/jenkinsxio/builder-nodejs:0.0.0-SNAPSHOT-PR-6006-6
+          image: gcr.io/jenkinsxio/builder-nodejs:0.0.0-SNAPSHOT-PR-6006-11
           sh: jx step helm release
